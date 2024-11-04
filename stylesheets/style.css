@@ -1,0 +1,964 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&display=swap');
+
+/* html{
+    margin: 0;
+    padding: 0;
+    width: 1920px;
+    height: 6210px;
+} */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* width: 1920px; */
+    height: 6210px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1893px;
+    height: 101px;
+    padding: 5px; 
+    background-color: #10324D;
+}
+
+@media (max-width: 1366px) {
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1366px;
+        height: 84px;
+        padding: 5px;
+        background-color: #10324D;
+    }
+}
+
+@media (max-width: 393px) {
+    header{
+        width: 393px;
+        height: 74px;
+        padding: 5px; 
+        background-color: #10324D;
+    }
+}
+
+.logo_mkr{
+    display: flex;
+}
+
+.logo_mkr img{
+    width: 106px;
+    height: 100px;
+    padding-left: 10px;   
+}
+
+@media (max-width: 1366px) {
+    .logo_mkr img{
+        width: 85px;
+        height: 79px;
+        padding-left: 10px; 
+    }
+}
+
+@media (max-width: 393px) {
+    .logo_mkr img{
+        width: 48px;
+        height: 48px;
+        padding-left: 10px; 
+    }
+}
+
+a{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+@media (max-width: 393px) {
+    .a{
+    display: none;  
+    }
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+.poste-1{
+    width: 2px; 
+    height: 33px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+@media (max-width: 393px) {
+    .poste-1{
+    display: none;  
+    }
+}
+
+.seccion-futbol{
+    padding: 0 23px 0 40px;
+    color: white;
+    font-size: 16px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media (max-width: 393px) {
+    .seccion-futbol{
+    display: none;  
+    }
+}
+
+.espacio_invisible_1{
+    padding: 0 0 0 32px;
+}
+
+@media (max-width: 393px) {
+    .espacio_invisible_1{
+    display: none;  
+    }
+}
+
+.poste-2{
+    width: 2px;
+    height: 33px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+@media (max-width: 393px) {
+    .poste-2{
+    display: none;  
+    }
+}
+
+.seccion-futsal{
+    padding: 0 23px 0 40px;
+    color: white;
+    font-size: 16px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media (max-width: 393px) {
+    .seccion-futsal{
+    display: none;  
+    }
+}
+
+.espacio_invisible_2{
+    padding: 0 0 0 32px;
+}
+
+@media (max-width: 393px) {
+    .espacio_invisible_2{
+    display: none;  
+    }
+}
+
+.poste-3{
+    width: 2px;
+    height: 33px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+@media (max-width: 393px) {
+    .poste-3{
+    display: none;  
+    }
+}
+
+.seccion-voleibol{
+    padding: 0 26px 0 33px;
+    color: white;
+    font-size: 16px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media (max-width: 393px) {
+    .seccion-voleibol{
+    display: none;  
+    }
+}
+
+.espacio_invisible_3{
+    padding: 0 0 0 25px;
+}
+
+@media (max-width: 393px) {
+    .espacio_invisible_3{
+    display: none;  
+    }
+}
+
+.poste-4{
+    width: 2px;
+    height: 33px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+@media (max-width: 393px) {
+    .poste-4{
+    display: none;  
+    }
+}
+
+.seccion-otros-deportes{
+    text-align: center;
+    width: 60px;
+    padding: 0 46px 0 47px;
+    color: white;
+    font-size: 16px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media (max-width: 393px) {
+    .seccion-otros-deportes{
+    display: none;  
+    }
+}
+
+.seccion-otros-deportes:hover{
+    color: #f29200;
+}
+
+.poste-5{
+    width: 2px;
+    height: 33px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+@media (max-width: 393px) {
+    .poste-5{
+    display: none;  
+    }
+}
+
+.seccion-columnas-de-opinion{
+    text-align: center;
+    width: 90px; 
+    padding: 0 46px 0 47px;
+    color: white;
+    font-size: 16px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media (max-width: 393px) {
+    .seccion-columnas-de-opinion{
+    display: none;  
+    }
+}
+
+.seccion-columnas-de-opinion:hover{
+    color: #f29200;
+}
+
+.poste-6{
+    width: 2px;
+    height: 33px;
+    background-color: white;
+}
+
+@media (max-width: 393px) {
+    .poste-6{
+    display: none;  
+    }
+}
+
+.espacio_invisible_4{
+    padding: 0 0 0 19px;
+}
+
+@media (max-width: 393px) {
+    .espacio_invisible_4{
+    display: none;  
+    }
+}
+
+.pestaña-de-inicio{
+    fill:white;
+}
+
+.pestaña-de-inicio:hover{
+    fill: #F29200;
+}
+
+@media (max-width: 393px) {
+    .pestaña-de-inicio{
+    display: none;  
+    }
+}
+
+/* @media (min-width: 393px) {
+    .menu-hamburguesa{
+    display: none;  
+    }
+} */
+
+@media (min-width:394px){
+    .el-menu-hamburguesa{
+    display: none;
+    }
+}
+
+.editar-menu-hamburguesa{
+    cursor: pointer;
+    padding-right: 25px;
+}
+
+.check-menu-hamburguesa{
+    width: 25px;
+    height: 40px;
+    display: none;
+}
+
+.complemento-header{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+.mancha-naranja{
+    width: 1874px;
+    height: 30px;
+    margin-top: -5px;
+    background-color: #f29200;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: 5px solid #10324D;
+} 
+
+.espacio-buscador{
+    color: black;
+    font-size: 16px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.buscador{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.lupa-buscador{
+    fill: #10324D;
+}
+
+/* .lupa-buscador:hover{
+    fill: white;
+} */
+
+input{
+    width: 740px;
+    height: 32px;
+    padding: 0 0 0 21px;
+    border-bottom-left-radius: 15px;
+    border-top: 0;
+    border-bottom: 5px solid #10324D;
+    border-right: 1px solid #10324D;
+    border-left: 5px solid #10324D;
+    font-size: 16px;
+}
+
+button{
+    width: 160px;
+    height: 37px;
+    padding: 0;
+    background-color: #f29200;
+    border-top: 0;
+    border-bottom: 5px solid #10324D;
+    border-right: 5px solid #10324D;
+    border-left: 5px solid #10324D;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #ffb546;
+}
+
+/* PRIMERA PANTALLA DE HOME */
+
+.primera-pantalla{
+    display: flex;
+    margin-top: -72px;
+}
+
+.banderin-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 487px;
+    height: 1053px;
+    background-color: #10324D;
+    border-right: 5px solid #f29200;
+    border-left: 5px solid #f29200;
+    border-bottom: 5px solid #f29200;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+.titulo-de-banderin-1{
+    padding-top: 102px;
+    padding-bottom: 109px;
+    font-size: 85px;
+    font-family: "Permanent Marker", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #f29200;
+}
+
+.boton-de-futbol-masculino{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 121px;
+    width: 294px;
+    height: 48px;
+    background-color: #f29200;
+    font-size: 16px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: bold;
+    color: #10324D;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.pelota-pequeña{
+    fill: #10324D;
+}
+
+/* .pelota-pequeña:hover{
+    fill: white;
+} */
+
+.boton-de-futbol-masculino:hover{
+    background-color: white;
+}
+
+.boton-de-futbol-femenino{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 294px;
+    height: 48px;
+    background-color: #f29200;
+    font-size: 16px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: bold;
+    color: #10324D;
+    border-radius: 30px;
+    text-decoration: none;
+    
+}
+
+.boton-de-futbol-femenino:hover{
+    background-color: white;
+}
+
+.icono-de-futbol-pequeño{
+    margin-top: 4px;
+    margin-right: 12px;
+}
+
+/* SEGUNDA PANTALLA DE HOME */
+
+.segunda-pantalla{
+    display: flex;
+    margin-top: -80px;
+}
+
+.foto-de-banderin-2{
+    border-top: 5px solid #10324D;    
+}
+
+.banderin-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 487px;
+    height: 1053px;
+    background-color: #f29200;
+    border-right: 5px solid #10324D;
+    border-left: 5px solid #10324D;
+    border-bottom: 5px solid #10324D;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+.titulo-de-banderin-2{
+    padding-top: 102px;
+    padding-bottom: 109px;
+    font-size: 85px;
+    font-family: "Permanent Marker", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #10324D;
+}
+
+.boton-de-futsal-masculino{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 121px;
+    width: 294px;
+    height: 48px;
+    background-color: #10324D;
+    font-size: 16px;
+    font-family: "Montserrat", serif; 
+    font-optical-sizing: auto; 
+    font-weight: 700; 
+    font-style: bold;
+    color: #f29200;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.boton-de-futsal-masculino:hover{
+    background-color: #A60000;
+}
+
+.boton-de-futsal-femenino{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 294px;
+    height: 48px;
+    background-color: #10324D;
+    font-size: 16px;
+    font-family: "Montserrat", serif; 
+    font-optical-sizing: auto; 
+    font-weight: 700; 
+    font-style: bold;
+    color: #f29200;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.boton-de-futsal-femenino:hover{
+    background-color: #A60000;
+
+}
+
+.icono-de-futsal-pequeño{
+    margin-top: 4px;
+    margin-right: 12px;
+}
+
+/* TERCERA PANTALLA DE HOME */
+
+.tercera-pantalla{
+    display: flex;
+    margin-top: -76px;
+}
+
+.foto-de-banderin-3{
+    border-top: 5px solid #f29200;    
+}
+
+.banderin-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 487px;
+    height: 1053px;
+    background-color: #10324D;
+    border-right: 5px solid #f29200;
+    border-left: 5px solid #f29200;
+    border-bottom: 5px solid #f29200;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+.titulo-de-banderin-3{
+    padding-top: 102px;
+    padding-bottom: 109px;
+    font-size: 70px;
+    font-family: "Permanent Marker", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #f29200;
+}
+
+.boton-de-voleibol-masculino{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 121px;
+    width: 294px;
+    height: 48px;
+    background-color: #f29200;
+    font-size: 16px;
+    font-family: "Montserrat", serif; 
+    font-optical-sizing: auto; 
+    font-weight: 700; 
+    font-style: bold;
+    color: #10324D;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.boton-de-voleibol-masculino:hover{
+    background-color: white;
+}
+
+.boton-de-voleibol-femenino{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 294px;
+    height: 48px;
+    background-color: #f29200;
+    font-size: 16px;
+    font-family: "Montserrat", serif; 
+    font-optical-sizing: auto; 
+    font-weight: 700; 
+    font-style: bold;
+    color: #10324D;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.boton-de-voleibol-femenino:hover{
+    background-color: white;
+}
+
+.icono-de-voleibol-pequeño{
+    margin-top: 4px;
+    margin-right: 12px;
+}
+
+/* CUARTA PANTALLA DE HOME */
+
+.cuarta-pantalla{
+    display: flex;
+    margin-top: -80px;
+}
+
+.foto-de-banderin-4{
+    border-top: 5px solid #10324D;    
+}
+
+.banderin-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    width: 487px;
+    height: 1053px;
+    background-color: #f29200;
+    border-right: 5px solid #10324D;
+    border-left: 5px solid #10324D;
+    border-bottom: 5px solid #10324D;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+.banderin-4:hover{
+    background-color: white;
+}
+
+.titulo-de-banderin-4{
+    padding: 130px 0 130px 0;
+    font-size: 70px;
+    font-family: "Permanent Marker", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #10324D;
+    text-align: center;
+}
+
+/* COLUMNAS DE OPINIÓN */
+
+.seccion-de-opinion{
+    width: 100%;
+    height: 938px; 
+    margin-top: -75px;
+    margin-bottom: -79px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #10324D;
+    border-top: 5px solid #F29200;
+    border-bottom: 5px solid #F29200;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+.titulo-de-columnas-de-opinion{
+    width: 1190px;
+    font-size: 85px;
+    font-size: 70px;
+    font-family: "Permanent Marker", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 auto;
+    padding-top: 85px;
+    padding-bottom: 85px;
+    color: #F29200;
+    text-align: center;
+}
+
+.cards-de-columnas-de-opinion{
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+
+/* Card 1 */
+
+.card-1-de-columna-de-opinion-de-home{
+    width: 610px;
+    height: 512px;
+    border-radius: 50px;
+}
+
+.imagen-de-card-1-de-opinion{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.contenedor-de-titulo-1-de-card-1-de-home{
+    width: 610px;
+    height: 20px;
+    margin-top: -4px;
+    background-color: #F29200;
+}
+
+.titulo-1-de-card-1-de-home{
+    text-align: center;
+    padding-right: 23px;
+    padding-left: 189px;
+    color: #10324D;
+    font-size: 16px;
+    font-family: "Montserrat", serif; 
+    font-optical-sizing: auto; 
+    font-weight: 700; 
+    font-style: bold;
+
+}
+
+.contenedor-de-texto-1-de-card-1-de-home{
+    display: flex;
+    width: 610px;
+    height: 96px;
+    background-color: #A60000;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.texto-1-de-card-1-de-home{
+    text-align: center;
+    width: 395px;
+    height: 54px;
+    margin-left: 106px;
+    margin-right: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 98px;
+    padding-right: 42px;
+    font-size: 16px;
+    font-family: "Montserrat", serif; 
+    font-optical-sizing: auto; 
+    font-weight: 700; 
+    font-style: bold;
+
+}
+
+.imagen-de-juan-talavera-en-card-1{
+    position: absolute;
+    margin-top: -163px;
+    margin-left: 23px;
+    border-radius: 40px;
+}
+
+/* card 2 */
+
+.card-2-de-columna-de-opinion-de-home{
+    width: 610px;
+    height: 512px;
+    border-radius: 50px;
+}
+
+.imagen-de-card-2-de-opinion{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.contenedor-de-titulo-1-de-card-2-de-home{
+    width: 610px;
+    height: 20px;
+    margin-top: -4px;
+    background-color: #F29200;
+}
+
+.titulo-1-de-card-2-de-home{
+    text-align: center;
+    padding-right: 23px;
+    padding-left: 189px;
+    color: #10324D;
+    font-size: 16px;
+    font-family: "Montserrat", serif; 
+    font-optical-sizing: auto; 
+    font-weight: 700; 
+    font-style: bold;
+
+}
+
+.contenedor-de-texto-1-de-card-2-de-home{
+    display: flex;
+    width: 610px;
+    height: 96px;
+    background-color: #A60000;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.texto-1-de-card-2-de-home{
+    text-align: center;
+    width: 255px;
+    height: 34px;
+    margin-left: 189px;
+    margin-right: 23px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    padding-left: 98px;
+    padding-right: 98px;
+    font-size: 16px;
+    font-family: "Montserrat", serif; 
+    font-optical-sizing: auto; 
+    font-weight: 700; 
+    font-style: bold;
+
+}
+
+.imagen-de-turco-berdeja-en-card-2{
+    position: absolute;
+    margin-top: -163px;
+    margin-left: 23px;
+    border-radius: 40px;
+}
+
+/* IMAGEN CON LEMA DE MKR */
+
+.imagen-promocional{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagen-de-lema{
+    width: 100%;
+    height: 1190px;
+}
+.lema_mkr{
+    width: 1090px;
+    font-size: 85px;
+    font-family: "Permanent Marker", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: -1000px 0 0 0;
+    color: white;
+    text-align: center;
+} 
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 230px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-top: 702px;
+    background-color: #10324D; 
+    color: white;
+    position: absolute;
+    
+}
+.texto-1{
+    padding: 17px 0 0 0;
+    width: 155px;
+    height: 55px;
+    font-size: 12px;
+    font-family: "Montserrat", serif; 
+    font-optical-sizing: auto; 
+    font-weight: 400; 
+    font-style: normal;
+    line-height: 14px;
+    text-align: center; 
+    display: flex;
+    align-self: center;
+}
+.para-redes-sociales{
+    width: 294px;
+    height: 66px;
+    border-radius: 50px;
+    background-color: #A60000;
+    display: flex;
+    justify-content: center;  
+    
+}
+.texto-3{
+    margin: 17px 0 0 0;
+    font-size: 12px;
+    font-family: "Montserrat", serif; 
+    font-optical-sizing: auto; 
+    font-weight: 400; 
+    font-style: normal;
+}
+.texto-4{
+    margin: 17px 0 0 0;
+    font-size: 12px;
+    font-family: "Montserrat", serif; 
+    font-optical-sizing: auto; 
+    font-weight: 400; 
+    font-style: normal;
+}
+.imagen_facebook{
+    margin: 22px 36px  0 0;
+}
+.imagen_instagram{
+    margin: 22px 0 0 36px;
+}
